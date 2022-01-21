@@ -42,7 +42,8 @@ This Web Application was developed in `Java spring boot as backend` and `React a
 > $ npm start
 > ```
 >
-> **After all 3 steps done, the demo website should be auto opened with you browser, if there are any issue, you can try access the demo website thur this lick also.**
+>**After all 3 steps done, the demo website should be auto opened with you browser, if there are any issue, you can try access the demo website thur this link also.** 
+  http://localhost:3000/
 
 
 
