@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bank Command Line Interface</title>
-    <h1>Bank Command Line Interface</h1>
-    <p>This is a Web Application in Java spring boot as backend and React as frontend to simulate interaction with a
-        retail bank.</p>
-    <p>Implement the following commands or interfaces:</p>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bank Command Line Interface</title>
+  <h1>Bank Command Line Interface</h1>
+  <p>This is a Web Application in Java spring boot as backend and React as frontend to simulate interaction with a
+    retail bank.</p>
+  <p>The following commands implemented as command line interface:</p>
 </head>
 <body>
 <div class="command-line">
-    <table border="1">
-        <tr>
-            <th>Command</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>login `client`</td>
-            <td>Login as `client`. Creates a new client if not yet exists.</td>
-        </tr>
-        <tr>
-            <td>topup `amount`</td>
-            <td>Increase logged-in client balance by amount.</td>
-        </tr>
-        <td>pay `another_client` `amount`</td>
-        <td>Pay `amount` from logged-in client to `another_client`, maybe in parts, as soon as possible.</td>
-    </table>
+  <table border="1">
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>login [client] </td>
+      <td>Login as client. Creates a new client if not yet exists.</td>
+    </tr>
+    <tr>
+      <td>topup [amount]</td>
+      <td>Increase logged-in client balance by amount.</td>
+    </tr>
+    <tr>
+      <td>pay [another_client] [amount]</td>
+      <td>Pay amount from logged-in client to another_client, maybe in parts, as soon as possible.</td>
+    </tr>
+    <tr>
+      <td>clear</td>
+      <td>Clear command prompt screen.</td>
+    </tr>
+  </table>
 </div>
 <div id="root"></div>
 </body>
